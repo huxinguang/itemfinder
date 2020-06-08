@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SpaceSearchVC" customModule="LoveStorage" customModuleProvider="target">
+            <connections>
+                <outlet property="cv" destination="6Vw-US-2OZ" id="gvF-3o-vAr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="6Vw-US-2OZ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewLayout key="collectionViewLayout" id="5rc-tE-tgd" customClass="CVFlowLayout" customModule="LoveStorage" customModuleProvider="target"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="do4-o6-kYF"/>
+                        <outlet property="delegate" destination="-1" id="zKA-tG-oDV"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6Vw-US-2OZ" secondAttribute="trailing" id="8QV-ad-WQH"/>
+                <constraint firstItem="6Vw-US-2OZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Tel-gJ-2dX"/>
+                <constraint firstItem="6Vw-US-2OZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aav-0f-6YA"/>
+                <constraint firstAttribute="bottom" secondItem="6Vw-US-2OZ" secondAttribute="bottom" id="mvp-gu-Hl8"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="151"/>
+        </view>
+    </objects>
+</document>

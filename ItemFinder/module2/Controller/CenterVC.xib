@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CenterVC" customModule="LoveStorage" customModuleProvider="target">
+            <connections>
+                <outlet property="cv" destination="Iu3-bb-tOw" id="R9d-iI-NIb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Iu3-bb-tOw">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewLayout key="collectionViewLayout" id="yTa-bE-g0o" customClass="CVFlowLayout" customModule="LoveStorage" customModuleProvider="target"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="li7-5H-xay"/>
+                        <outlet property="delegate" destination="-1" id="UOE-fZ-Uuc"/>
+                    </connections>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61k-gQ-N92">
+                    <rect key="frame" x="354" y="836" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.92156862745098034" green="0.27843137254901962" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="61k-gQ-N92" secondAttribute="height" multiplier="1:1" id="8Kt-9P-zsA"/>
+                        <constraint firstAttribute="width" constant="40" id="yGN-aq-E3R"/>
+                    </constraints>
+                    <state key="normal" image="add_icon"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="addAction:" destination="-1" eventType="touchUpInside" id="JAh-NJ-PQv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="61k-gQ-N92" secondAttribute="trailing" constant="20" id="2nk-b5-TKx"/>
+                <constraint firstAttribute="trailing" secondItem="Iu3-bb-tOw" secondAttribute="trailing" id="8Ls-ZK-fem"/>
+                <constraint firstItem="Iu3-bb-tOw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Cd6-2M-PzR"/>
+                <constraint firstAttribute="bottom" secondItem="Iu3-bb-tOw" secondAttribute="bottom" id="nju-dE-0Rc"/>
+                <constraint firstItem="Iu3-bb-tOw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qh2-92-Eke"/>
+                <constraint firstAttribute="bottom" secondItem="61k-gQ-N92" secondAttribute="bottom" constant="20" id="rs0-DY-zqI"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="151"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add_icon" width="26" height="26"/>
+    </resources>
+</document>

@@ -1,0 +1,130 @@
+PODS:
+  - Alamofire (4.8.2)
+  - DynamicColor (4.2.0)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - IQKeyboardManagerSwift (6.5.1)
+  - Kingfisher (5.8.3):
+    - Kingfisher/Core (= 5.8.3)
+  - Kingfisher/Core (5.8.3)
+  - LeanCloud (16.5.1):
+    - LeanCloud/IM (= 16.5.1)
+    - LeanCloud/Storage (= 16.5.1)
+  - LeanCloud/IM (16.5.1):
+    - FMDB (~> 2.7.0)
+    - LeanCloud/Storage
+    - Starscream (~> 3.1.0)
+    - SwiftProtobuf (~> 1.6.0)
+  - LeanCloud/Storage (16.5.1):
+    - Alamofire (~> 4.8.0)
+  - MarqueeLabel (4.0.0)
+  - MBProgressHUD (1.1.0)
+  - NotificationBannerSwift (3.0.0):
+    - MarqueeLabel (~> 4.0.0)
+    - SnapKit (~> 5.0.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - QCloudCore/WithoutMTA (5.6.6)
+  - QCloudCOSXML/Transfer (5.6.6):
+    - QCloudCore/WithoutMTA
+  - SnapKit (5.0.1)
+  - Starscream (3.1.1)
+  - SwiftProtobuf (1.6.0)
+  - SwiftyJSON (5.0.0)
+  - TZImagePickerController (3.2.5)
+  - UICKeyChainStore (2.1.2)
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.1.1)
+  - UMCPush (3.2.4):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
+  - WechatOpenSDK (1.8.6)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.0)
+  - DynamicColor (~> 4.2.0)
+  - FLAnimatedImage
+  - FMDB
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - LeanCloud (~> 16.5.0)
+  - MBProgressHUD
+  - NotificationBannerSwift (~> 3.0.0)
+  - NVActivityIndicatorView
+  - QCloudCOSXML/Transfer
+  - SnapKit
+  - SwiftyJSON
+  - TZImagePickerController
+  - UICKeyChainStore
+  - UMCAnalytics
+  - UMCCommon
+  - UMCPush
+  - UMCSecurityPlugins
+  - WechatOpenSDK (= 1.8.6)
+  - YYCategories
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DynamicColor
+    - FLAnimatedImage
+    - FMDB
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - LeanCloud
+    - MarqueeLabel
+    - MBProgressHUD
+    - NotificationBannerSwift
+    - NVActivityIndicatorView
+    - QCloudCore
+    - QCloudCOSXML
+    - SnapKit
+    - Starscream
+    - SwiftProtobuf
+    - SwiftyJSON
+    - TZImagePickerController
+    - UICKeyChainStore
+    - UMCAnalytics
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
+    - WechatOpenSDK
+    - YYCategories
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DynamicColor: c475f66bda1cabf602f2c54ac1171c0c07148a5a
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IQKeyboardManagerSwift: 9ac7524fad9f9fe9a3b98c927e7772471ca546d2
+  Kingfisher: b7e4cb65ff24c264bd2a1284b75b974d907afd94
+  LeanCloud: 95885dab9edda56e36ca0f85dff73051830834b2
+  MarqueeLabel: b55b26e690b6ad41faedd95cbf5eae6f1d1735b4
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  NotificationBannerSwift: 842401d30f5c36e4f2eafc152824566f6b3c1bb5
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  QCloudCore: 57cb8830b0f7adbd99f7467d23cf42a88257ac63
+  QCloudCOSXML: 5589f274de85f2073b69a786c9eef9080009cd3b
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftProtobuf: e905ca1366405696411aaf174411c4b19c0ef73d
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TZImagePickerController: 17440009643a472aa91e8af3b54d05091b152f0a
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  WechatOpenSDK: 368ae03b72ee3ea1328c4f11326fbb5d2721d118
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: f27ce202b001ff842b942988899f823901177d63
+
+COCOAPODS: 1.7.4
